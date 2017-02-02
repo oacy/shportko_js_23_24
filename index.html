@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <script data-main="js/app" src="js/lib/require.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<script type="text/template" id="wrapper-template">
+
+<div class="wrapper">
+    <h2>To-do List</h2>
+    <ul class="item-list"></ul>
+    <div class="controlls">
+        <input type="text" class="item-value" placeholder="enter to do item">
+        <button class="item-add"></button>
+    </div>
+</div>
+</script>
+
+<script type="text/template" id="list-template">
+<% for (var i=0; i< data.length; i++) { %>
+<li><input type="text" value="<%= data[i] %>" class="date-change"> &emsp;	<input data-value="<%= data[i] %>" class="item-delete">
+<% }; %>
+</script>
+
+</body>
+</html>*

@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("../img/wood.jpg");
+}
+
+.wrapper{
+    width: 370px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+h2{
+
+    color: #000000;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    display: block;
+    text-align: center;
+    line-height: 70px;
+    font-size: 40px;
+
+}
+.date-change {
+    padding: 10px 30px;
+    background: linear-gradient(to left, #f8ab8d 0%, white, #f8ab8d);
+    border-bottom: 1px solid grey;
+    color: #506a6b;
+    font-size: 20px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0, .2);
+    margin-bottom: 5px;
+    float: left;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.item-delete{
+    margin-top: 7px;
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+    float: left;
+    cursor: pointer;
+    background-image: url("../img/delete.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    border: 0px solid;
+}
+
+
+.item-value {
+    padding: 10px 30px;
+    background: linear-gradient(to left, #f8d5b6 0%, white, #f8d9d7);
+    border-bottom: 1px solid grey;
+    color: #506a6b;
+    font-size: 20px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0, .2);
+    margin-top: 20px;
+    float: left;
+}
+
+.item-add{
+    margin-top: 22px;
+    margin-left: 8px;
+    height: 45px;
+    width: 45px;
+    float: left;
+    cursor: pointer;
+    background-image: url("../img/add.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    border: 0px solid;
+}
